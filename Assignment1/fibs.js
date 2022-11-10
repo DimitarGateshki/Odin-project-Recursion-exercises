@@ -12,6 +12,7 @@ function fibs(n){
         pivot2=output[i-2];
         output.push(pivot1+pivot2);
     }
+    }
 
     console.log(output);
 }
